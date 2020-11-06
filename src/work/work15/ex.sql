@@ -1,7 +1,5 @@
 create database ex
-go
 use ex
-go
 
 CREATE TABLE [admin] (
 	[aid] int  identity PRIMARY KEY,
@@ -18,11 +16,9 @@ CREATE TABLE [stu] (
 	
 )
 
-go
 INSERT INTO [admin] VALUES ('pry', '123')
 INSERT INTO [admin] VALUES ('peter','456')
 
 INSERT INTO [stu] VALUES ('王大锤', '男', '20')
 INSERT INTO [stu] VALUES ('王小丫', '女', '19')
 
-go
